@@ -3,4 +3,10 @@
 </h1>
 
 
-Atividade proposta pela Proz com a AWS, projeto voltado a criar um site responsivo que demonstre formas e mentorias de estudo.
+- ### Atividade proposta pela Proz com a AWS.
+
+Projeto voltado a criar um site responsivo, que demonstre formas e mentorias de estudo.
+
+ Sprint l - Layout 
+
+- [x] Criar um repositório 

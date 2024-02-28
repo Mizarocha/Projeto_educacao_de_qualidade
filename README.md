@@ -9,4 +9,6 @@ Projeto voltado a criar um site responsivo, que demonstre formas e mentorias de 
 
  Sprint l - Layout 
 
-- [x] Criar um repositório 
+- [x] Criar um repositório remoto com todos os colaboradores
+do grupo com as referências do layout.
+- [x] Desenvolver o layout de pelo menos 5 telas do site.

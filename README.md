@@ -15,4 +15,4 @@ do grupo com as referências do layout.
 
   
 - Link do Figma:
-- [x] [Prototipo](https://www.figma.com/file/E2NIei5bsIaX9KrYFrC2iO/Educa%C3%A7%C3%A3oQualidade?type=design&node-id=0-1&mode=design&t=BtZD7wgZiQ6iZv7D-0)
+- [x] [Protótipo](https://www.figma.com/file/E2NIei5bsIaX9KrYFrC2iO/Educa%C3%A7%C3%A3oQualidade?type=design&node-id=0-1&mode=design&t=BtZD7wgZiQ6iZv7D-0)

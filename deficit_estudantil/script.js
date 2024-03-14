@@ -1,3 +1,7 @@
+
+
+
+
 function mostrarAba(evt) {
   var abas = document.querySelectorAll(".grid-section");
   for (var i = 0; i < abas.length; i++) {

@@ -161,7 +161,8 @@ body {
 }
 
 fieldset.fieldset-form {
-  border: 1px solid #3e4d9b;
+  /* background-color: #b2d3f4; */
+  border: 1px solid gray;
   border-radius: 10px;
   margin-top: 4rem;
   margin-right: 3rem;
@@ -431,8 +432,7 @@ h1.titulo6 {
 .carousel {
   position: relative; 
   margin: 1rem;
-  width: 50rem;
-  height: 50rem;
+  
 }
 .carousel-sm {
   max-width: 400px;

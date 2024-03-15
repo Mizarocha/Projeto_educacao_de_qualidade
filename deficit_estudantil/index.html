@@ -30,11 +30,11 @@
             <li id="cursos">
               <a href="#" onclick="mostrarAba('cursos')">cursos</a>
             </li>
+          <li id="sugestoes">
+              <a href="#" onclick="mostrarAba('sugestoes')">Sugestões</a>
+            </li>
             <li id="contato">
               <a href="#" onclick="mostrarAba('contato')">Contatos</a>
-            </li>
-            <li id="sugestoes">
-              <a href="#" onclick="mostrarAba('sugestoes')">Sugestões</a>
             </li>
           </ul>
 
@@ -279,6 +279,38 @@
             </fieldset> 
           </div>
 
+          <div class="hide grid-section sugestoes" id="sugestoes" style="display: none">
+            <div>
+              <h1 class="titulo">Sugestões</h1>
+            </div>
+            <div class="col-xs-4">
+              <fieldset class="fieldset-form">
+                <div class="campo">
+                  <div class="input-control">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" />
+                  </div>
+                  <div class="input-control">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu email" />
+                  </div>
+                  <div class="input-control">
+                    <label for="telefone" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" />
+                  </div>
+                  <div class="campo">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+
+                  <div class="input-control">
+                    <label for="nome">Registra aqui!</label>
+                    <textarea name="text" id="" cols="30" rows="10"></textarea>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+          </div>
+          
           <div class="grid-section contato" id="contato" style="display: none">
             <div>
               <h1 class="titulo">Contatos</h1>
@@ -337,39 +369,6 @@
                 </ul>
               </fieldset>
             </div>
-          </div>
-
-          <div class="hide grid-section sugestoes" id="sugestoes" style="display: none">
-            <div>
-              <h1 class="titulo">Sugestões</h1>
-            </div>
-            <div class="col-xs-4">
-              <fieldset class="fieldset-form">
-                <div class="campo">
-                  <div class="input-control">
-                    <label for="nome" class="form-label">Nome</label>
-                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" />
-                  </div>
-                  <div class="input-control">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Digite seu email" />
-                  </div>
-                  <div class="input-control">
-                    <label for="telefone" class="form-label">Telefone</label>
-                    <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" />
-                  </div>
-                  <div class="campo">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
-                  </div>
-
-                  <div class="input-control">
-                    <label for="nome">Registra aqui!</label>
-                    <textarea name="text" id="" cols="30" rows="10"></textarea>
-                  </div>
-                </div>
-              </fieldset>
-            </div>
-
           </div>
 
           <footer class="copy">

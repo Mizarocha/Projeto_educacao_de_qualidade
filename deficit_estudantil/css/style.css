@@ -12,6 +12,7 @@ dl {
 
 img {
   display: block;
+  border-radius: 10px;
   max-width: 100%;
 }
 
@@ -20,8 +21,6 @@ ul {
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
   color: #222;
   -webkit-font-smoothing: antialiased;
   display: grid;
@@ -30,14 +29,9 @@ body {
 .cabecalho {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  grid-column: 1 / 5;
-  margin-bottom: 2rem;
   align-items: center;
   padding: 10px;
-  border-bottom-left-radius: 2rem;
   background: #000033;
-  margin: 0.6rem;
 }
 
 /* 
@@ -47,12 +41,12 @@ body {
 .search-box {
   background-color: #f7f7f7;
   height: 50px;
-  padding: 10px;
-  border-radius: 40px;
+  padding-left: 1px;
+  border-radius: 50px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 2rem;
 }
 
 .search-text {
@@ -92,7 +86,9 @@ body {
 
 .search-box:hover > .search-btn {
   background-color: #437de2;
-  border-radius: 50%;
+  border-radius: 50px;
+  height: 45px;
+  width: 45px;
 }
 
 .search-box:hover > .search-btn .lupa-azul {
@@ -105,7 +101,7 @@ body {
 
 ::-webkit-input-placeholder {
   font-size: 17px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #aeaeae;
 }
 
@@ -125,7 +121,7 @@ body {
   margin-right: 10px;
   color: #fff;
   text-decoration: none;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;
@@ -133,7 +129,7 @@ body {
 }
 
 .cabecalho li a:hover {
-  color: #fff;
+  color: #222;
 }
 
 .grid-section {
@@ -146,11 +142,11 @@ body {
 }
 
 .titulo {
-  font-family: "Playfair Display SC", georgia;
+  font-family: 'Playfair Display SC', georgia;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
@@ -165,22 +161,23 @@ fieldset.fieldset-form {
 }
 
 .inicio h2 {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 1rem;
+  text-align: start;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
-  color: #e54;
+  color: #20b2aa;
 }
 
 .inicio h2::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   margin-right: 10px;
-  background: hsla(36, 63%, 54%, 1);
+  background: #191970;
 }
 
 .inicio p {
@@ -198,6 +195,7 @@ fieldset.fieldset-form {
   display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .aluno-lista img {
@@ -223,50 +221,33 @@ fieldset.fieldset-form {
   width: 18px;
 }
 
-.aluno-lista::-webkit-scrollbar-thumb {
-  background: hsla(36, 63%, 54%, 1);
-  border-left: 4px solid #faf6ed;
-  border-right: 4px solid #faf6ed;
-}
-
 .aluno-lista::-webkit-scrollbar-track {
   background: #faf6ed;
 }
 
-/* .aluno-descricao { */
-/* grid-column: 3; */
-/* } */
-
-.indice-lista {
-  grid-column: 2 / 4;
-}
-
 .indice-lista dt {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  color: #e54;
+  color: #120a8f;
 }
 
 .indice-lista dt::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
   border-radius: 50%;
   margin-right: 10px;
-  background: hsla(36, 63%, 54%, 1);
+  background: #000033;
 }
 
 .indice-lista dd {
   font-family: Helvetica, Arial;
   margin-bottom: 0.5rem;
-  margin-left: 30px;
-}
-
-.mapa {
-  grid-column: 2;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .grid-section.contato .fieldset-form {
@@ -283,9 +264,9 @@ fieldset.fieldset-form {
   align-items: center;
 }
 
-.input-control input[type="text"],
-.input-control input[type="email"],
-.input-control input[type="tel"],
+.input-control input[type='text'],
+.input-control input[type='email'],
+.input-control input[type='tel'],
 .input-control textarea {
   width: 300px; /* Define a largura dos inputs para ocupar todo o espaço disponível */
   padding: 10px; /* Adiciona um preenchimento interno para melhorar a aparência */
@@ -311,7 +292,7 @@ fieldset.fieldset-form {
 }
 
 .dados li::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -350,16 +331,15 @@ fieldset.fieldset-form {
 }
 
 .copy {
-  grid-column: 1/5;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   background: #000033;
   text-align: center;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .copy p {
   padding: 20px;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   color: white;
 }
@@ -414,7 +394,7 @@ button:hover {
 }
 
 h1.titulo6 {
-  font-family: "Playfair Display SC", georgia;
+  font-family: 'Playfair Display SC', georgia;
   margin-bottom: 1rem;
   text-align: center;
   font-size: 2rem;

@@ -1,4 +1,4 @@
-h1,
+/* h1,
 h2,
 ul,
 li,
@@ -8,7 +8,7 @@ dt,
 dl {
   margin: 0px;
   padding: 0px;
-}
+} */
 
 img {
   display: block;
@@ -21,9 +21,10 @@ ul {
 }
 
 body {
-  color: #222;
+   color: #fff;
   -webkit-font-smoothing: antialiased;
   display: grid;
+  
 }
 
 .cabecalho {
@@ -101,7 +102,7 @@ body {
 
 ::-webkit-input-placeholder {
   font-size: 17px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #aeaeae;
 }
 
@@ -119,9 +120,9 @@ body {
   display: block;
   padding: 10px;
   margin-right: 10px;
-  color: #fff;
+  color: #6841ea;
   text-decoration: none;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;
@@ -129,7 +130,7 @@ body {
 }
 
 .cabecalho li a:hover {
-  color: #222;
+  color: #fff;
 }
 
 .grid-section {
@@ -140,29 +141,102 @@ body {
   display: grid;
   grid-gap: 20px;
 }
+/* .grid-section  {
+background-image: url('../img/AdobeStock_164909094-scaled.jpeg');
 
+
+
+} */
+
+div#div-formulario {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%) ;
+  background-color: #6841ea;
+}
+
+div#home {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+}
+
+.image-home {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-home img {
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%);
+  width: 600px;
+  height: 450px;
+}
+
+.container-principal {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  height: 100vh; 
+  padding: 0 20px; /
+}
+
+.conteudo h1{
+  text-align: left;
+  font-size: 45px;
+  padding: 10px;
+  margin-top: -7rem;
+  color: white;
+ 
+}
+
+.conteudo h2{
+  text-align: left;
+  font-size: 35px;
+  padding: 5px;
+  color: white;
+ 
+}
+
+.conteudo h3{
+  text-align: left;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 5px;
+  color: white;
+ 
+}
+.conteudo p{
+  text-align: left;
+  overflow-wrap: break-word;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+}
+.botao-home{
+  margin-top: -18rem;
+  padding: 10px; 
+  margin-left: 1rem;
+}
 .titulo {
-  font-family: 'Playfair Display SC', georgia;
+  font-family: "Playfair Display SC", georgia;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
 
 fieldset.fieldset-form {
   text-align: center;
-  border: 1px solid gray;
+  align-items: center;
+  border: 1px solid blue;
   border-radius: 10px;
   margin-top: 4rem;
-  margin-right: 3rem;
-  margin-left: 2rem;
-}
+  margin-right: 0rem;
 
+}
 .inicio h2 {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 1rem;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 2rem;
   text-align: start;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -171,7 +245,7 @@ fieldset.fieldset-form {
 }
 
 .inicio h2::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -184,6 +258,7 @@ fieldset.fieldset-form {
   font-family: Helvetica, Arial;
   line-height: 1.2;
   margin-bottom: 1rem;
+ font-size: 25px;
 }
 
 .aluno-lista {
@@ -226,7 +301,7 @@ fieldset.fieldset-form {
 }
 
 .indice-lista dt {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -234,7 +309,7 @@ fieldset.fieldset-form {
 }
 
 .indice-lista dt::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -264,9 +339,9 @@ fieldset.fieldset-form {
   align-items: center;
 }
 
-.input-control input[type='text'],
-.input-control input[type='email'],
-.input-control input[type='tel'],
+.input-control input[type="text"],
+.input-control input[type="email"],
+.input-control input[type="tel"],
 .input-control textarea {
   width: 300px; /* Define a largura dos inputs para ocupar todo o espaço disponível */
   padding: 10px; /* Adiciona um preenchimento interno para melhorar a aparência */
@@ -292,7 +367,7 @@ fieldset.fieldset-form {
 }
 
 .dados li::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -330,16 +405,17 @@ fieldset.fieldset-form {
   color: #000000;
 }
 
-.copy {
+/* .copy {
   margin-bottom: 1rem;
   background: #000033;
   text-align: center;
   margin: 1rem;
-}
+} */
 
 .copy p {
+  text-align: center;
   padding: 20px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   color: white;
 }
@@ -394,7 +470,7 @@ button:hover {
 }
 
 h1.titulo6 {
-  font-family: 'Playfair Display SC', georgia;
+  font-family: "Playfair Display SC", georgia;
   margin-bottom: 1rem;
   text-align: center;
   font-size: 2rem;

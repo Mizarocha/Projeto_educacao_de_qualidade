@@ -1,4 +1,4 @@
-/* h1,
+h1,
 h2,
 ul,
 li,
@@ -8,7 +8,7 @@ dt,
 dl {
   margin: 0px;
   padding: 0px;
-} */
+}
 
 img {
   display: block;
@@ -175,7 +175,7 @@ div#home {
   justify-content: space-between; 
   align-items: center;
   height: 100vh; 
-  padding: 0 20px; /
+  padding: 0 20px; 
 }
 
 .conteudo h1{
@@ -210,11 +210,7 @@ div#home {
   padding: 10px;
   color: white;
 }
-.botao-home{
-  margin-top: -18rem;
-  padding: 10px; 
-  margin-left: 1rem;
-}
+
 .titulo {
   font-family: "Playfair Display SC", georgia;
   justify-content: center;

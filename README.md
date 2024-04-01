@@ -28,8 +28,7 @@ do grupo com as referências do layout.
  - Ilustração :
 
 <div>
-  <img src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/40d482b0-afaf-45f8-a863-56c62d22747f">     
-  <br>
+  <img align="left" width="300" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/40d482b0-afaf-45f8-a863-56c62d22747f">     
   
-  <img  width="300"  src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/a1d42ee0-836e-47ab-98fb-26a12031808e">
+ <img  align="right" width="300"  src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/a1d42ee0-836e-47ab-98fb-26a12031808e">
 </div>

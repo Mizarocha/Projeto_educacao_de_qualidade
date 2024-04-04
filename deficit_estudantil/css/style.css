@@ -27,17 +27,15 @@ body {
 }
 
 .cabecalho {
-  display: flex;   
-  /* TODO:altere algum flex */
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
   background: #000033;
 }
 
-
 .cabecalho ul {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
 }
 
 .cabecalho li a {
@@ -63,8 +61,6 @@ body {
   box-sizing: border-box;
   padding: 25px;
   grid-gap: 20px;
-  display: ;
-  flex-wrap: wrap;
 }
 
 div#div-formulario {
@@ -79,7 +75,7 @@ div#home {
 }
 
 .image-home {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   width: 500px;
 }
 
@@ -88,8 +84,8 @@ div#home {
 }
 
 .container-principal {
-  display: flex;   /*TODO:altere algum flex*/
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   padding: 0 20px;
@@ -171,12 +167,12 @@ fieldset.fieldset-form {
 }
 
 .aluno-lista {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   flex-direction: column;
 }
 
 .aluno-lista span {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   align-items: flex-start;
   margin-bottom: 20px;
   align-items: center;
@@ -192,7 +188,7 @@ fieldset.fieldset-form {
 }
 
 .aluno-descricao {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   flex-direction: column;
   margin-left: 20px;
 }
@@ -217,6 +213,11 @@ fieldset.fieldset-form {
   color: #120a8f;
 }
 
+.image-indice {
+  display: grid;
+  justify-content: center;
+}
+
 .indice-lista dt::before {
   content: '';
   display: inline-block;
@@ -235,14 +236,14 @@ fieldset.fieldset-form {
 }
 
 .grid-section.contato .fieldset-form {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   align-items: center;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
 }
 
 .grid-section.sugestoes .fieldset-form {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -261,7 +262,7 @@ fieldset.fieldset-form {
 }
 
 .dados {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -300,7 +301,7 @@ fieldset.fieldset-form {
 }
 
 .links {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   align-items: center;
   text-align: center;
   border: 2px solid #000000;
@@ -373,7 +374,7 @@ button:hover {
 }
 
 .titulo6-container {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
@@ -388,7 +389,7 @@ h1.titulo6 {
 }
 
 .centered-form {
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -414,7 +415,7 @@ h1.titulo6 {
   border: none;
   background-color: var(--branco);
   padding: 0.6% 0 0.6% 1%;
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   flex-direction: column;
   justify-content: center;
   border-radius: 10px 10px 0 0;
@@ -438,7 +439,7 @@ h1.titulo6 {
   top: 0;
   bottom: 0;
   z-index: 1;
-  display: flex;   /*TODO:altere algum flex*/
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 4%;

@@ -479,6 +479,11 @@ h1.titulo6 {
 }
 
 /* graficos */
+
+.row {
+  justify-content: center;
+}
+
 .grafico {
   display: flex;
   width: 400px;
@@ -549,10 +554,9 @@ h1.titulo6 {
 }
 
 .search-box-icone {
-  background-image: url("/img/lupa2.png");
+  background-image: url("/img/loupe-blue.svg");
   background-size: cover;
   position: absolute;
-
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;

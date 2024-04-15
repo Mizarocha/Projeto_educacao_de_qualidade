@@ -44,7 +44,7 @@ body {
   margin-right: 10px;
   color: #6841ea;
   text-decoration: none;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;
@@ -115,6 +115,7 @@ div#home {
   padding: 5px;
   color: white;
 }
+
 .conteudo p {
   text-align: left;
   overflow-wrap: break-word;
@@ -130,7 +131,7 @@ div#home {
 }
 
 .titulo {
-  font-family: "Playfair Display SC", georgia;
+  font-family: 'Playfair Display SC', georgia;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -147,8 +148,9 @@ fieldset.fieldset-form {
   margin-top: 4rem;
   margin-right: 0rem;
 }
+
 .inicio h2 {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 2rem;
   text-align: start;
   text-transform: uppercase;
@@ -158,7 +160,7 @@ fieldset.fieldset-form {
 }
 
 .inicio h2::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -214,7 +216,7 @@ fieldset.fieldset-form {
 }
 
 .indice-lista dt {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -227,7 +229,7 @@ fieldset.fieldset-form {
 }
 
 .indice-lista dt::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -257,16 +259,22 @@ fieldset.fieldset-form {
   align-items: center;
 }
 
-.input-control input[type="text"],
-.input-control input[type="email"],
-.input-control input[type="tel"],
+.input-control input[type='text'],
+.input-control input[type='email'],
+.input-control input[type='tel'],
 .input-control textarea {
-  width: 300px; /* Define a largura dos inputs para ocupar todo o espaço disponível */
-  padding: 10px; /* Adiciona um preenchimento interno para melhorar a aparência */
-  border: 1px solid #ccc; /* Adiciona uma borda para destacar os inputs */
-  border-radius: 5px; /* Adiciona uma borda arredondada aos inputs */
-  font-size: 16px; /* Define o tamanho da fonte para os inputs */
-  margin-bottom: 10px; /* Adiciona um espaço entre os inputs */
+  width: 300px;
+  /* Define a largura dos inputs para ocupar todo o espaço disponível */
+  padding: 10px;
+  /* Adiciona um preenchimento interno para melhorar a aparência */
+  border: 1px solid #ccc;
+  /* Adiciona uma borda para destacar os inputs */
+  border-radius: 5px;
+  /* Adiciona uma borda arredondada aos inputs */
+  font-size: 16px;
+  /* Define o tamanho da fonte para os inputs */
+  margin-bottom: 10px;
+  /* Adiciona um espaço entre os inputs */
 }
 
 .dados {
@@ -285,7 +293,7 @@ fieldset.fieldset-form {
 }
 
 .dados li::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -334,7 +342,7 @@ fieldset.fieldset-form {
 .copy p {
   text-align: center;
   padding: 20px;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   color: white;
 }
@@ -389,7 +397,7 @@ button:hover {
 }
 
 h1.titulo6 {
-  font-family: "Playfair Display SC", georgia;
+  font-family: 'Playfair Display SC', georgia;
   margin-bottom: 1rem;
   text-align: center;
   font-size: 2rem;
@@ -419,6 +427,7 @@ h1.titulo6 {
   text-align: center;
   align-items: center;
 }
+
 .input-control textarea {
   resize: none;
 }
@@ -442,6 +451,7 @@ h1.titulo6 {
   position: relative;
   margin: 1rem;
 }
+
 .carousel-sm {
   max-width: 400px;
   max-height: 350px;
@@ -479,4 +489,79 @@ h1.titulo6 {
   display: flex;
   width: 400px;
   height: 400px;
+}
+
+/* caixa de busca */
+.box-busca {
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.search-box-input::placeholder {
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+.search-box form {
+  display: flex;
+  position: relative;
+  border-radius: 50px;
+  background-color: #6610f2;
+  height: 60px;
+  opacity: 0.5;
+}
+
+.search-box:hover .search-box-input {
+  padding-left: 16px;
+}
+
+.search-box-input {
+  outline: 0;
+  font-size: 1.2em;
+  color: #fff;
+  width: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  transition: 0.45s;
+}
+
+.search-box-button {
+  display: flex;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box-button:active {
+  transform: scale(0.85);
+  width: 50px;
+  height: 50px;
+}
+
+.search-box-icone {
+  margin: auto;
+  color: #fff;
+}
+
+.search-box-icone {
+  background-image: url("/img/lupa2.png");
+  background-size: cover;
+  position: absolute;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  filter: invert(57%) sepia(98%) saturate(748%) hue-rotate(330deg) brightness(112%) contrast(105%);
+}
+
+@media screen and (min-width: 400px) {
+  .search-box:hover .search-box-input {
+    width: 360px;
+  }
 }

@@ -514,7 +514,7 @@ h1.titulo6 {
   border-radius: 50px;
   background-color: #6610f2;
   height: 60px;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .search-box:hover .search-box-input {
@@ -524,7 +524,7 @@ h1.titulo6 {
 .search-box-input {
   outline: 0;
   font-size: 1.2em;
-  color: #fff;
+  color: white;
   width: 0;
   padding: 0;
   border: none;
@@ -534,7 +534,7 @@ h1.titulo6 {
 
 .search-box-button {
   display: flex;
-  border-radius: 50%;
+  border-radius: 100%;
   width: 60px;
   height: 60px;
   border: none;
@@ -542,11 +542,6 @@ h1.titulo6 {
   transition: 0.3s;
 }
 
-.search-box-button:active {
-  transform: scale(0.85);
-  width: 50px;
-  height: 50px;
-}
 
 .search-box-icone {
   margin: auto;
@@ -554,14 +549,18 @@ h1.titulo6 {
 }
 
 .search-box-icone {
-  background-image: url("/img/loupe-blue.svg");
+  background-image: url("/Projeto_educacao_de_qualidade/deficit_estudantil/img/loupe-blue.svg");
   background-size: cover;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
   height: 20px;
-  filter: invert(57%) sepia(98%) saturate(748%) hue-rotate(330deg) brightness(112%) contrast(105%);
+  filter: invert(20%) sepia(10%) saturate(15%) hue-rotate(270deg) brightness(90%) contrast(1100%);
+}
+
+.search-box-button {
+  background-color: #6841ea;
 }
 
 @media screen and (min-width: 400px) {

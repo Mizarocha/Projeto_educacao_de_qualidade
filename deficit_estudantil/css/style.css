@@ -297,7 +297,6 @@ fieldset.fieldset-form {
   width: 300px;
   margin: 20px;
   border-radius: 10px;
-
 }
 
 .course img {
@@ -338,12 +337,13 @@ fieldset.fieldset-form {
 
 .dados {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   border: 2px solid #000000;
   border-radius: 8px;
   padding: 10px;
+  width: 30%;
   margin: 1rem;
 }
 
@@ -604,7 +604,7 @@ h1.titulo6 {
 }
 
 .search-box-icone {
-  background-image: url('../img/loupe-blue.svg');
+  background-image: url("../img/loupe-blue.svg");
   background-size: cover;
   position: absolute;
   background-repeat: no-repeat;

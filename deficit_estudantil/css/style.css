@@ -277,6 +277,65 @@ fieldset.fieldset-form {
   /* Adiciona um espaço entre os inputs */
 }
 
+/* carousel de cursos */
+
+.row {
+  flex-wrap: 3;
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  overflow-x: auto;
+  justify-content: center;
+}
+
+.course {
+  background: #000033;
+  flex: 0 0 auto;
+  width: 300px;
+  margin: 20px;
+  border-radius: 10px;
+
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.course h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.course p {
+  font-size: 14px;
+  color: #555;
+}
+
+.course button {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.course button:hover {
+  background-color: #0056b3;
+}
+
+/* fim cursos */
+
 .dados {
   display: flex;
   flex-wrap: wrap;
@@ -332,12 +391,10 @@ fieldset.fieldset-form {
   color: #000000;
 }
 
-/* .copy {
-  margin-bottom: 1rem;
+.copy {
   background: #000033;
   text-align: center;
-  margin: 1rem;
-} */
+}
 
 .copy p {
   text-align: center;
@@ -386,7 +443,7 @@ button {
   align-items: center;
 }
 
-button:hover {
+.botao-home button:hover {
   background-color: #0056b3;
 }
 
@@ -505,16 +562,14 @@ h1.titulo6 {
 
 .search-box-input::placeholder {
   color: #ffffff;
-  opacity: 0.6;
 }
 
 .search-box form {
   display: flex;
   position: relative;
   border-radius: 50px;
-  background-color: #6610f2;
+  background-color: #6841ea;
   height: 60px;
-  /* opacity: 0.5; */
 }
 
 .search-box:hover .search-box-input {
@@ -542,21 +597,21 @@ h1.titulo6 {
   transition: 0.3s;
 }
 
-
 .search-box-icone {
   margin: auto;
   color: #fff;
 }
 
 .search-box-icone {
-  background-image: url("/Projeto_educacao_de_qualidade/deficit_estudantil/img/loupe-blue.svg");
+  background-image: url('../img/loupe-blue.svg');
   background-size: cover;
   position: absolute;
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;
   height: 20px;
-  filter: invert(20%) sepia(10%) saturate(15%) hue-rotate(270deg) brightness(90%) contrast(1100%);
+  filter: invert(20%) sepia(10%) saturate(15%) hue-rotate(270deg)
+    brightness(90%) contrast(1100%);
 }
 
 .search-box-button {

@@ -297,82 +297,116 @@
 
       <div class="hide grid-section sugestoes" id="sugestoes" style="display: none">
         <div>
-          
           <h1 class="titulo">Sugestões</h1>
-          <div></div>
-          <div class="col-xs-4">
-            <fieldset class="fieldset-form">
-              <div class="campo">
-                <div class="input-control">
-                  <label for="nome" class="form-label">Nome</label>
-                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" />
-                </div>
-                <div class="input-control">
-                  <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Digite seu email" />
-                </div>
-                <div class="input-control">
-                  <label for="telefone" class="form-label">Telefone</label>
-                  <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" />
-                </div>
-                <div class="campo">
-                </div>
-                <div class="input-control01">
-                  <label for="sugestao" class="form-label">Sugestão</label>
-                  <textarea class="form-control" id="sugestao" rows="4" placeholder="Digite sua sugestão"></textarea>
-                </div>
-                <div class="campo">
-                  <button type="submit" class="btn btn-primary">
-                    Enviar
-                  </button>
-                </div>
-              </div>
-            </fieldset>
-          </div>
-          <div>
-            <h1 class="titulo">Cadastro</h1>
-          </div>
-          <div class="col-xs-4">
-            <fieldset class="fieldset-form">
-              <div class="campo">
-                <div class="input-control">
-                  <label for="nomeCadastro" class="form-label">Nome:</label>
-                  <input type="text" class="form-control" id="nomeCadastro" placeholder="Digite seu nome completo" />
-                </div>
-                <div class="input-control">
-                  <label for="cpf" class="form-label">CPF:</label>
-                  <input type="text" class="form-control" id="cpf" placeholder="Digite seu CPF" />
-                </div>
-                <div class="input-control">
-                  <label for="emailCadastro" class="form-label">Email:</label>
-                  <input type="email" class="form-control" id="emailCadastro" placeholder="Digite seu email" />
-                </div>
-                <div class="input-control">
-                  <label for="telefoneCadastro" class="form-label">Telefone:</label>
-                  <input type="tel" class="form-control" id="telefoneCadastro" placeholder="Digite seu telefone" />
-                </div>
-                <div class="input-control">
-                  <label for="estado" class="form-label">Estado:</label>
-                  <input type="text" class="form-control" id="estado" placeholder="Digite seu Estado">
-                  </input>
-                </div>
-                <div class="input-control">
-                  <label for="cidade" class="form-label">Cidade:</label>
-                  <input type="text" class="form-control" id="cidade" placeholder="Digite sua cidade" />
-                </div>
-                <div class="campo">
-                  <button type="submit" class="btn btn-primary">
-                    Enviar Cadastro
-                  </button>
-                </div>
-              </div>
-            </fieldset>
-          </div>
         </div>
+        <fieldset class="fieldset-form">
+          <div class="campo">
+            <div class="col-xs-4">
+              <div class="input-control">
+                <label for="nome" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" />
+              </div>
+              <div class="input-control">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email" />
+              </div>
+              <div class="input-control">
+                <label for="telefone" class="form-label">Telefone:</label>
+                <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" />
+              </div>
+              <div class="input-control01">
+                <label for="sugestao" class="form-label1">Sugestão</label>
+                <textarea class="form-control" id="sugestao" rows="4" placeholder="Digite sua sugestão"></textarea>
+              </div>
+              <div class="campo">
+                <button type="submit" class="btn btn-primary">
+                  Enviar
+                </button>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <div>
+          <h1 class="titulo">Cadastro</h1>
+        </div>
+        <fieldset class="fieldset-form">
+          <div class="subtitulo-cadastro">
+            <h2>Dados da Instituição:</h2>
+          </div>
+          <div class="row">
+            <div class="campo">
+              <div class="input-control">
+                <label for="nomeCadastro" class="form-label">Solicitante:</label>
+                <input type="text" class="form-control" id="nomeCadastro" placeholder="Digite seu nome completo" />
+              </div>
+              <div class="input-control">
+                <label for="emailCadastro" class="form-label">E-mail:</label>
+                <input type="email" class="form-control" id="emailCadastro" placeholder="Digite seu email" />
+              </div>
+              <div class="input-control">
+                <label for="telefoneCadastro" class="form-label">Telefone:</label>
+                <input type="tel" class="form-control" id="telefoneCadastro" placeholder="Digite seu telefone" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="campo">
+              <div class="input-control">
+                <label for="estado" class="form-label">Estado:</label>
+                <input type="text" class="form-control" id="estado" placeholder="Digite seu estado">
+                </input>
+              </div>
+              <div class="input-control">
+                <label for="cidade" class="form-label">Cidade:</label>
+                <input type="text" class="form-control" id="cidade" placeholder="Digite sua cidade" />
+              </div>
+              <div class="input-control">
+                <label for="instituicao" class="form-label"> Nome da Instituição:</label>
+                <input type="text" class="form-control" id="instituicao" placeholder="Digite o nome da instituição" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="campo1">
+              <div class="input-control">
+                <label for="cnpf" class="form-label">CNPJ:</label>
+                <input type="text" class="form-control" id="cnpf" placeholder="Digite o CNPJ" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="campo2">
+              <div class="input-control">
+                <label for="data" class="form-label">Data:</label>
+                <input type="date" class="form-control input-data" id="data" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="campo3">
+              <div class="input-control">
+                <label for="tipoDeInstituicao" class="form-label">Tipo de Instituição:</label>
+
+                <div class="radio-group">
+                  <input type="radio" id="publica" name="tipoInstituicao" value="publica">
+                  <label for="publica">Pública</label>
+
+                  <input type="radio" id="privada" name="tipoInstituicao" value="privada">
+                  <label for="privada">Privada</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="campo">
+            <button type="submit" class="btn btn-primary">
+              Enviar Cadastro
+            </button>
+          </div>
+        </fieldset>
       </div>
 
-
-      <d class="grid-section contato" id="contato" style="display: none">
+      <div class="grid-section contato" id="contato" style="display: none">
         <div>
           <h1 class="titulo">Desenvolvedores</h1>
         </div>
@@ -425,12 +459,12 @@
             </ul>
           </div>
         </fieldset>
-  </div>
+      </div>
 
-  <footer class="copy">
-    <p>Todos os direitos reservados aos seus respectivos donos.</p>
-  </footer>
-  </form>
+      <footer class="copy">
+        <p>Todos os direitos reservados aos seus respectivos donos.</p>
+      </footer>
+    </form>
   </div>
   </div>
 

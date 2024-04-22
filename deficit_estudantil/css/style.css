@@ -138,6 +138,7 @@ div#home {
   font-size: 3rem;
   font-weight: 400;
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 fieldset.fieldset-form {
@@ -174,6 +175,40 @@ fieldset.fieldset-form {
   line-height: 1.2;
   margin-bottom: 1rem;
   font-size: 25px;
+}
+
+.radio-group {
+  display: flex; /* Torna os elementos filhos em um flex container */
+  gap: 10px; /* Espaçamento entre os elementos */
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px; /* Margem à direita para separar os botões */
+}
+
+
+.subtitulo-cadastro {
+   margin-left: -46rem;
+  padding: 1rem;
+}
+
+.campo1 {
+  margin-right: 23rem;
+}
+
+.campo2 {
+  margin-right: 1rem;
+  margin-top: -6rem;
+}
+
+.campo3 {
+  margin-right: -27rem;
+  margin-top: -5rem;
+}
+
+.input-data {
+  width: 20rem;
+  padding: 0.5rem;
 }
 
 .aluno-lista {
@@ -263,7 +298,7 @@ fieldset.fieldset-form {
 .input-control input[type="email"],
 .input-control input[type="tel"],
 .input-control textarea {
-  width: 300px;
+  width: 320px;
   /* Define a largura dos inputs para ocupar todo o espaço disponível */
   padding: 10px;
   /* Adiciona um preenchimento interno para melhorar a aparência */
@@ -471,12 +506,13 @@ h1.titulo6 {
 }
 
 .input-control {
-  width: 27%;
+  /* width: 27%; */
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   font-weight: 400;
-  text-align: center;
+  /* text-align: center; */
   align-items: center;
+  float: left;
 }
 
 .input-control01 {
@@ -488,6 +524,11 @@ h1.titulo6 {
 
 .input-control textarea {
   resize: none;
+}
+
+label.form-label1 {
+  /* margin-left: -3rem; */
+  margin: 1rem;
 }
 
 /* novo css */

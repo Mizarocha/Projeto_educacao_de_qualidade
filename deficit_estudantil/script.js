@@ -96,7 +96,7 @@ const chart = new Chart(novo, {
     plugins: {
       title: {
         display: true,
-        text: "Estados com maior desempenho com Educação Digital",
+        text: "Estados com maior desempenho da Educação Digital",
         color: "#fff",
         font: {
           size: 18,

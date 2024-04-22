@@ -27,7 +27,7 @@ new Chart(ctx, {
           "rgb(54, 162, 235)",
           "rgb(255, 99, 132)",
         ],
-        data: [100, 30, 50, 80, 40, 20],
+        data: [60, 33, 25, 15, 5, 20],
         borderWidth: 1,
         borderColor: "#000",
       },
@@ -55,12 +55,12 @@ new Chart(ctx, {
 const novo = document.getElementById("grafico2");
 
 const data = {
-  labels: ["São Paulo", "Belo Horizonte", "Pernambuco"],
+  labels: ["Bahia", "Amazonas", "São Paulo"],
   datasets: [
     {
       label:
         "Cidades com maior índice de desempenho de educação com Construindo Sonhos",
-      data: [300, 50, 100],
+      data: [250, 250, 250],
       backgroundColor: [
         "rgb(0, 200, 0)",
         "rgb(255, 20, 147)",
@@ -74,11 +74,11 @@ const data = {
 const chart = new Chart(novo, {
   type: "doughnut",
   data: data,
-  labels: ["Rio de Janeiro", "Belo Horizonte", "Pernambuco"],
+  labels: ["Bahia", "Amazonas", "São Paulo"],
   datasets: [
     {
       label: "My First Dataset",
-      data: [300, 50, 100],
+      data: [250, 250, 250],
       backgroundColor: [
         "rgb(255, 99, 132)",
         "rgb(54, 162, 235)",
@@ -87,4 +87,60 @@ const chart = new Chart(novo, {
       hoverOffset: 4,
     },
   ],
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+    plugins: {
+      title: {
+        display: true,
+        text: "Estados com maior desempenho com Educação Digital",
+        color: "#fff",
+        font: {
+          size: 18,
+        },
+      },
+    },
+  },
+});
+
+const dados = document.getElementById("grafico3");
+
+new Chart(dados, {
+  type: "bar",
+  data: {
+    labels: ["2030", "2029", "2028", "2027", "2026", "2025"],
+    datasets: [
+      {
+        label: "100%",
+        backgroundColor: [
+          "rgb(255, 205, 86)",
+          "rgb(54, 162, 235)",
+          "rgb(255, 99, 132)",
+        ],
+        data: [100, 50, 50, 45, 40, 70],
+        borderWidth: 1,
+        borderColor: "#000",
+      },
+    ],
+  },
+  options: {
+    scales: {
+      y: {
+        beginAtZero: true,
+      },
+    },
+    plugins: {
+      title: {
+        display: true,
+        text: "Meta para 2030",
+        color: "#fff",
+        font: {
+          size: 18,
+        },
+      },
+    },
+  },
 });

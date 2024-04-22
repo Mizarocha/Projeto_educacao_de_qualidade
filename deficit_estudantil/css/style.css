@@ -264,17 +264,11 @@ fieldset.fieldset-form {
 .input-control input[type="tel"],
 .input-control textarea {
   width: 300px;
-  /* Define a largura dos inputs para ocupar todo o espaço disponível */
   padding: 10px;
-  /* Adiciona um preenchimento interno para melhorar a aparência */
   border: 1px solid #ccc;
-  /* Adiciona uma borda para destacar os inputs */
   border-radius: 5px;
-  /* Adiciona uma borda arredondada aos inputs */
   font-size: 16px;
-  /* Define o tamanho da fonte para os inputs */
   margin-bottom: 10px;
-  /* Adiciona um espaço entre os inputs */
 }
 
 /* carousel de cursos */
@@ -337,7 +331,6 @@ fieldset.fieldset-form {
 
 .dados {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   border: 2px solid #000000;
@@ -386,8 +379,8 @@ fieldset.fieldset-form {
   width: fit-content;
   font-size: 1.5rem;
   font-weight: 600;
-  margin: 1rem;
-  padding: 10px;
+  margin: 5px;
+  padding: 3px;
   text-decoration: none;
   color: #000000;
 }

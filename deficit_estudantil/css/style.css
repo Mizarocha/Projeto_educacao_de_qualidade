@@ -527,6 +527,32 @@ label.form-label1 {
   margin-right: 5rem;
   padding: 1rem;
 }
+
+.texto-cadastro {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cadasto-login {
+  position: relative;
+  z-index: 2; /* Colocando o botão na frente */
+  margin-top: 20px; /* Espaço entre o texto e o botão */
+}
+/* .cadastro-login button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} */
+h5 {
+  position: relative;
+  z-index: 1; /* Definindo a ordem de sobreposição para o texto */
+  margin-bottom: 20px;
+}
 /* novo css */
 
 .tab {
@@ -736,7 +762,13 @@ label.form-label1 {
   color: #4038a0;
 }
 
-.justify-center button {
-  cursor: pointer;
-  transition: all 0.4s ease-out;
+.justify-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-cadastro {
+  margin-top: 1rem;
+  text-align: center;
 }

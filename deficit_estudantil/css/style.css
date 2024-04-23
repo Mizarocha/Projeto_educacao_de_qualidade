@@ -215,7 +215,7 @@ fieldset.fieldset-form {
 }
 
 .campo3 {
-  margin-right: -73rem;
+  margin-right: -82rem;
   margin-top: -2rem;
 }
 
@@ -535,14 +535,7 @@ label.form-label1 {
   z-index: 2; /* Colocando o botão na frente */
   margin-top: 20px; /* Espaço entre o texto e o botão */
 }
-/* .cadastro-login button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-} */
+
 h5 {
   position: relative;
   z-index: 1; /* Definindo a ordem de sobreposição para o texto */
@@ -766,4 +759,8 @@ h5 {
 .texto-cadastro {
   margin-top: 1rem;
   text-align: center;
+}
+
+div#divLogin {
+  padding: 4rem;
 }

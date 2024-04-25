@@ -48,7 +48,7 @@ body {
   margin-right: 10px;
   color: #6841ea;
   text-decoration: none;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;
@@ -60,7 +60,7 @@ body {
 }
 
 .botoes-acesso button {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 16px;
   font-weight: 500;
   color: #230a74;
@@ -156,7 +156,7 @@ div#home {
 }
 
 .titulo {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -176,7 +176,7 @@ section.fieldset-form {
 }
 
 .inicio h2 {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 2rem;
   text-align: start;
   text-transform: uppercase;
@@ -186,7 +186,7 @@ section.fieldset-form {
 }
 
 .inicio h2::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -209,7 +209,7 @@ section.fieldset-form {
   /* Espaçamento entre os elementos */
 }
 
-.radio-group input[type="radio"] {
+.radio-group input[type='radio'] {
   margin-right: 5px;
   /* Margem à direita para separar os botões */
 }
@@ -264,7 +264,7 @@ section.fieldset-form {
 }
 
 .indice-lista dt {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -277,7 +277,7 @@ section.fieldset-form {
 }
 
 .indice-lista dt::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -307,9 +307,9 @@ section.fieldset-form {
   align-items: center;
 }
 
-.input-control input[type="text"],
-.input-control input[type="email"],
-.input-control input[type="tel"],
+.input-control input[type='text'],
+.input-control input[type='email'],
+.input-control input[type='tel'],
 .input-control textarea {
   width: 300px;
   padding: 10px;
@@ -320,10 +320,6 @@ section.fieldset-form {
 }
 
 /* carousel de cursos */
-
-.row {
-  flex-wrap: 3;
-}
 
 .carousel {
   display: flex;
@@ -339,6 +335,7 @@ section.fieldset-form {
   width: 300px;
   margin: 20px;
   border-radius: 10px;
+  box-shadow: 1px 1px 15px 0px #000000;
 }
 
 .course img {
@@ -379,14 +376,14 @@ section.fieldset-form {
 
 .dados {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  border: 2px solid #000000;
   border-radius: 8px;
   padding: 10px;
   width: 30%;
   margin: 1rem;
-  box-shadow: 1px 10px 1px 10px #00ffea;
+  box-shadow: 1px 1px 15px 0px #000000;
 }
 
 .dados li {
@@ -395,7 +392,7 @@ section.fieldset-form {
 }
 
 .dados li::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -423,7 +420,6 @@ section.fieldset-form {
   display: flex;
   align-items: center;
   text-align: center;
-  border: 2px solid #000000;
   border-radius: 8px;
   width: fit-content;
   font-size: 1.5rem;
@@ -442,7 +438,7 @@ section.fieldset-form {
 .copy p {
   text-align: center;
   padding: 15px;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   color: white;
 }
@@ -592,6 +588,7 @@ h5 {
 
 .row {
   justify-content: center;
+  flex-wrap: 3;
 }
 
 .grafico {
@@ -665,7 +662,7 @@ h5 {
 }
 
 .search-box-icone {
-  background-image: url("../img/loupe-blue.svg");
+  background-image: url('../img/loupe-blue.svg');
   background-size: cover;
   /* position: absolute; */
   background-repeat: no-repeat;
@@ -705,7 +702,7 @@ h5 {
   background-color: #ffffff80;
   padding: 30px;
   border-radius: 4%;
-  box-shadow: 3px 3px 1px 0px #00000060;
+  box-shadow: 1px 1px 15px 0px #000000;
   width: 400px;
   text-align: center;
 }
@@ -764,4 +761,20 @@ h5 {
 
 div#divLogin {
   padding: 4rem;
+}
+
+.dados-icone {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.dados-icone a {
+  padding: 10px;
+  box-shadow: 1px 1px 15px 0px #000000;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+section .row ul {
+  flex-direction: column;
 }

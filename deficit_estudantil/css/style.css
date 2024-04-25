@@ -667,7 +667,7 @@ h5 {
 .search-box-icone {
   background-image: url("../img/loupe-blue.svg");
   background-size: cover;
-  position: absolute;
+  /* position: absolute; */
   background-repeat: no-repeat;
   background-position: center;
   width: 20px;

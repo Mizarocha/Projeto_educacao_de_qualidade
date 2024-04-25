@@ -7,8 +7,12 @@
   <title>Educação Digital</title>
 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" /> -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -52,8 +56,9 @@
           </ul>
 
           <div class="botoes-acesso">
-            <button onclick="mostrarAba('divLogin')">Login</button>
-            <button onclick="mostrarAba('cadastro')">Cadastro</button>
+            <button onclick="mostrarAba('divLogin')" type="button" class="btn btn-outline-info">Login</button>
+            <button onclick="mostrarAba('cadastro')" type="button" class="btn btn-outline-info">Cadastro</button>
+
           </div>
 
           <div> <!-- caixa de busca -->
@@ -120,7 +125,7 @@
         </div>
       </div>
       <div class="botao-home">
-        <button>100% Gratuito</button>
+        <button type="button" class="btn btn-outline-warning">100% Gratuito</button>
       </div>
     </div>
 
@@ -134,7 +139,7 @@
             <div class="aluno-lista">
               <span>
                 <img class="fotoPrincipal" src="img/foto6.jpg" />
-                <section>
+                <section class="fieldset-form">
                   <h2>Desafios da Educação</h2>
                   <p>
                     O sistema educacional enfrenta diversos desafios, como a
@@ -153,7 +158,7 @@
               </span>
               <span>
                 <img class="fotoPrincipal" src="img/educacao-inclusiva.jpg" />
-                <section>
+                <section class="fieldset-form">
                   <h2>Educação Inclusiva</h2>
                   <p>
                     A educação inclusiva visa garantir que todos os alunos,
@@ -170,7 +175,7 @@
               </span>
               <span>
                 <img class="fotoPrincipal" src="img/tecno.jpg" />
-                <section>
+                <section class="fieldset-form">
                   <h2>Tecnologia na Educação</h2>
                   <p>
                     A integração da tecnologia na educação oferece
@@ -191,7 +196,7 @@
               </span>
               <span>
                 <img class="fotoPrincipal" src="img/desenvolvimento.jpeg" />
-                <section>
+                <section class="fieldset-form">
                   <h2>Desenvolvimento Profissional</h2>
                   <p>
                     O desenvolvimento profissional contínuo dos educadores é
@@ -207,7 +212,7 @@
               </span>
               <span>
                 <img class="fotoPrincipal" src="img/profissional.jpeg" />
-                <section>
+                <section class="fieldset-form">
                   <h2>Educação para o Futuro</h2>
                   <p>
                     A educação deve preparar os alunos não apenas para o
@@ -228,7 +233,7 @@
               </span>
               <span>
                 <img class="fotoPrincipal" src="img/futuro.jpg" />
-                <section>
+                <section class="fieldset-form">
                   <h2>Investimento em Educação</h2>
                   <p>
                     O investimento em educação é essencial para garantir o
@@ -437,7 +442,7 @@
         <div>
           <h1 class="titulo">Desenvolvedores</h1>
         </div>
-        <fieldset class="fieldset-form">
+        <section class="fieldset-form">
           <div class="row">
             <ul class="dados">
               <img class="foto" src="./img/Artemiza.jpg" />
@@ -485,7 +490,7 @@
               </a>
             </ul>
           </div>
-        </fieldset>
+          </<section>
       </div>
 
       <footer class="copy">

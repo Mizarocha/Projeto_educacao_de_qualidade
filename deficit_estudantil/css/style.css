@@ -156,7 +156,7 @@ div#home {
 }
 
 .titulo {
-  font-family: "Playfair Display SC", georgia;
+  font-family: "IBM Plex Mono", monospace;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -166,11 +166,11 @@ div#home {
   margin-top: 2rem;
 }
 
-fieldset.fieldset-form {
+section.fieldset-form {
   text-align: center;
   align-items: center;
-  border: 1px solid white;
-  border-radius: 10px;
+  /* border: 1px solid white;
+  border-radius: 10px; */
   margin-top: 4rem;
   margin-right: 0rem;
 }
@@ -440,15 +440,15 @@ fieldset.fieldset-form {
 
 .copy p {
   text-align: center;
-  padding: 23.99px;
+  padding: 15px;
   font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   color: white;
 }
 
 .campo {
-  margin: 15px;
-  margin-bottom: 20px;
+  margin: 108px;
+  /* margin-bottom: 20px; */
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -466,7 +466,7 @@ input {
   font-size: 16px;
 }
 
-button {
+/* button {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -480,7 +480,7 @@ button {
 
 .botao-home button:hover {
   background-color: #0056b3;
-}
+} */
 
 .centered-form {
   display: flex;

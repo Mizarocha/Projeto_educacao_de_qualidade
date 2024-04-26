@@ -95,7 +95,7 @@ div#div-formulario {
 
 div#home {
   box-sizing: border-box;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -405,6 +405,7 @@ section.fieldset-form {
   width: 100%;
   height: auto;
   border-radius: 50%;
+  box-shadow: 1px 1px 15px 0px #000000;
   max-width: 250px;
   max-height: 250px;
 }
@@ -776,5 +777,11 @@ div#divLogin {
 }
 
 section .row ul {
-  flex-direction: column;
+max-width: 426px;
+}
+
+@media (max-width: 1358px) {
+  section .row ul{
+    max-width: 300px;
+    }
 }

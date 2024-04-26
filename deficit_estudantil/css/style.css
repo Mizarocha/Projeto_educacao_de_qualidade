@@ -85,7 +85,7 @@ body {
   width: 100%;
   box-sizing: border-box;
   padding: 25px;
-  grid-gap: 20px;
+  grid-gap: 2px;
 }
 
 div#div-formulario {
@@ -99,60 +99,23 @@ div#home {
   height: 100vh;
 }
 
-.image-home {
-  display: flex;
-  width: 500px;
-}
-
-.image-home img {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%);
-  width: 600px;
-  height: 450px;
-}
-
 .container-principal {
-  display: flex;
-  justify-content: space-around;
   align-items: center;
-  height: 100vh;
-  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  gap: 1rem;
+  justify-content: center;
 }
 
-.conteudo h1 {
-  text-align: left;
-  font-size: 45px;
-  padding: 10px;
-  margin-top: -7rem;
-  color: white;
-}
-
-.conteudo h2 {
-  text-align: left;
-  font-size: 35px;
-  padding: 5px;
-  color: white;
-}
-
-.conteudo h3 {
-  text-align: left;
-  font-size: 30px;
-  font-weight: 600;
-  padding: 5px;
+.conteudo {
+  max-width: 64ch;
+  align-self: center;
+  text-align: start;
   color: white;
 }
 
 .conteudo p {
-  text-align: left;
-  overflow-wrap: break-word;
-  font-size: 15px;
   padding: 10px;
-  color: white;
-}
-
-.botao-home {
-  margin-top: -13rem;
-  padding: 10px;
-  margin-left: 5rem;
 }
 
 .titulo {
@@ -169,58 +132,25 @@ div#home {
 section.fieldset-form {
   text-align: center;
   align-items: center;
-  /* border: 1px solid white;
-  border-radius: 10px; */
-  margin-top: 4rem;
-  margin-right: 0rem;
+  margin: 10px;
 }
 
-.inicio h2 {
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 2rem;
-  text-align: start;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 1rem;
-  color: #20b2aa;
-}
-
-.inicio h2::before {
-  content: '';
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  margin-right: 10px;
-  background: #191970;
-}
-
-.inicio p {
-  font-family: Helvetica, Arial;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-  font-size: 25px;
+section.fieldset-form p {
+  max-width: 50ch;
 }
 
 .radio-group {
   display: flex;
-  /* Torna os elementos filhos em um flex container */
-  gap: 10px;
-  /* Espaçamento entre os elementos */
+  flex-wrap: wrap;
+  gap: 1px;
 }
 
 .radio-group input[type='radio'] {
   margin-right: 5px;
-  /* Margem à direita para separar os botões */
-}
-
-.campo3 {
-  margin-right: -82rem;
-  margin-top: -2rem;
 }
 
 .input-data {
-  width: 19rem;
+  width: 10rem;
   padding: 0.5rem;
 }
 
@@ -260,7 +190,7 @@ section.fieldset-form {
 }
 
 .aluno-lista::-webkit-scrollbar-track {
-  background: #faf6ed;
+  background: #faf6e3;
 }
 
 .indice-lista dt {
@@ -463,22 +393,6 @@ input {
   border-radius: 5px;
   font-size: 16px;
 }
-
-/* button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  margin-bottom: 5px;
-  cursor: pointer;
-  align-items: center;
-}
-
-.botao-home button:hover {
-  background-color: #0056b3;
-} */
 
 .centered-form {
   display: flex;
@@ -777,11 +691,11 @@ div#divLogin {
 }
 
 section .row ul {
-max-width: 426px;
+  max-width: 426px;
 }
 
 @media (max-width: 1358px) {
-  section .row ul{
+  section .row ul {
     max-width: 300px;
-    }
+  }
 }

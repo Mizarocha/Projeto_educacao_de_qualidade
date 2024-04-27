@@ -48,7 +48,7 @@ body {
   margin-right: 10px;
   color: #6841ea;
   text-decoration: none;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;
@@ -60,7 +60,7 @@ body {
 }
 
 .botoes-acesso button {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   font-weight: 500;
   color: #230a74;
@@ -89,14 +89,31 @@ body {
 }
 
 div#div-formulario {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%);
-  background-color: #6841ea;
+  background: linear-gradient(45deg, #10439f, #f27bbd, #874ccc, #c65bcf);
+  width: 100%;
+  animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 0% 30%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
 div#home {
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
+}
+
+.botao-home {
+  margin-left: 27rem;
 }
 
 .container-principal {
@@ -119,7 +136,7 @@ div#home {
 }
 
 .titulo {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -145,12 +162,12 @@ section.fieldset-form p {
   gap: 1px;
 }
 
-.radio-group input[type='radio'] {
+.radio-group input[type="radio"] {
   margin-right: 5px;
 }
 
 .input-data {
-  width: 10rem;
+  width: 18rem;
   padding: 0.5rem;
 }
 
@@ -194,7 +211,7 @@ section.fieldset-form p {
 }
 
 .indice-lista dt {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -207,7 +224,7 @@ section.fieldset-form p {
 }
 
 .indice-lista dt::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -237,9 +254,9 @@ section.fieldset-form p {
   align-items: center;
 }
 
-.input-control input[type='text'],
-.input-control input[type='email'],
-.input-control input[type='tel'],
+.input-control input[type="text"],
+.input-control input[type="email"],
+.input-control input[type="tel"],
 .input-control textarea {
   width: 300px;
   padding: 10px;
@@ -322,7 +339,7 @@ section.fieldset-form p {
 }
 
 .dados li::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -369,17 +386,19 @@ section.fieldset-form p {
 .copy p {
   text-align: center;
   padding: 15px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   color: white;
 }
 
 .campo {
+  padding: 1rem;
   margin: 108px;
-  /* margin-bottom: 20px; */
   align-items: center;
   text-align: center;
-  justify-content: center;
+  box-shadow: 1px 1px 15px 0px #000000;
+  width: 100%;
+  border-radius: 10px;
 }
 
 label {
@@ -423,10 +442,12 @@ input {
 
 label.form-label1 {
   margin: 1rem;
+  text-align: center;
 }
 
 .campo-botao {
   margin: 2rem;
+  text-align: center;
 }
 
 .btn-cadastro {
@@ -577,7 +598,7 @@ h5 {
 }
 
 .search-box-icone {
-  background-image: url('../img/loupe-blue.svg');
+  background-image: url("../img/loupe-blue.svg");
   background-size: cover;
   /* position: absolute; */
   background-repeat: no-repeat;
@@ -611,6 +632,7 @@ h5 {
   justify-content: center;
   width: 100%;
   margin-top: 100px;
+  padding: 165px;
 }
 
 .card {
@@ -620,6 +642,7 @@ h5 {
   box-shadow: 1px 1px 15px 0px #000000;
   width: 400px;
   text-align: center;
+  margin-top: -11rem;
 }
 
 .label-float input {
@@ -664,6 +687,7 @@ h5 {
 }
 
 .justify-center {
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;

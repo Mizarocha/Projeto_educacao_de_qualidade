@@ -391,6 +391,15 @@ section.fieldset-form p {
   color: white;
 }
 
+.campo1 {
+  padding: 1rem;
+  margin: 108px;
+  align-items: center;
+  text-align: center;
+  box-shadow: 1px 1px 15px 0px #000000;
+  border-radius: 10px;
+}
+
 .campo {
   padding: 1rem;
   margin: 108px;
@@ -451,18 +460,14 @@ label.form-label1 {
 }
 
 .btn-cadastro {
-  margin-top: 2rem;
-  margin-right: 5rem;
+  margin-top: 25rem;
   padding: 1rem;
 }
 
-.texto-cadastro {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
+.input-control.instituicao {
+  margin-left: 6rem;
 }
+
 .cadasto-login {
   position: relative;
   z-index: 2; /* Colocando o botão na frente */
@@ -696,6 +701,7 @@ h5 {
 .texto-cadastro {
   margin-top: 1rem;
   text-align: center;
+  color: #fff;
 }
 
 div#divLogin {

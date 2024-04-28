@@ -26,13 +26,25 @@ do grupo com as referências do layout.
 - [x] Configure o repositório criado pela equipe de trabalho.    
 
  - Ilustração :
-  <img align="left" width="350"  height="400" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/40d482b0-afaf-45f8-a863-56c62d22747f">
-  
-   <img  align="right" width="300"  height="395" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/a1d42ee0-836e-47ab-98fb-26a12031808e">
    
-<br>
+<img width="500" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/e4a11c3f-12f4-403c-b6f7-e8996ca314dd"/>     
+<img width="500" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/ee85b6c1-47b2-48ba-ac88-15c51447a179"/>
+</br>    
 
-  
+  Sprint lll 
+
+ - [x] Use apropriadamente as propriedade do CSS para estilização do site   
+ - [x] Tenha pelos menos 5 páginas em CSS.   
+ - [x] Configure o repositório criado pela equipe de trabalho.
+
+ 
+  - Resultado :
+
+   <img  width="500"  height="220" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/7c4116e7-b901-424b-97ff-d1c44413a354"/>
+   <img  width="500" height="220" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/08280be2-40c0-4a7f-a098-a3b409f733a8"/>
+
+
+
 
 
 

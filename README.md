@@ -45,7 +45,11 @@ do grupo com as referências do layout.
 
 
 
+  Sprint lV 
 
+ - [ ] Manipulação do DOM via Javascript. 
+ - [ ] Validação do formulário, o site deve ter pelo menos dois formulários com validação.
+ - [ ] Renderização dinâmica de elementos em pelo menos uma página.
 
 
 

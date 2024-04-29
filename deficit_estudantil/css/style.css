@@ -698,6 +698,14 @@ h5 {
   align-items: center;
 }
 
+.fa-eye {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #0d009c;
+}
+
 .texto-cadastro {
   margin-top: 1rem;
   text-align: center;

@@ -9,10 +9,8 @@ function mostrarAba(evt) {
   }
 }
 
-
 function iniciarFormulario() {
   mostrarAba();
-  
 }
 
 const ctx = document.getElementById("grafico1");

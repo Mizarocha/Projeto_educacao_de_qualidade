@@ -48,7 +48,7 @@ body {
   margin-right: 10px;
   color: #6841ea;
   text-decoration: none;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;
@@ -60,7 +60,7 @@ body {
 }
 
 .botoes-acesso button {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 16px;
   font-weight: 500;
   color: #230a74;
@@ -136,7 +136,7 @@ div#home {
 }
 
 .titulo {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -162,7 +162,7 @@ section.fieldset-form p {
   gap: 1px;
 }
 
-.radio-group input[type="radio"] {
+.radio-group input[type='radio'] {
   margin-right: 5px;
 }
 
@@ -211,7 +211,7 @@ section.fieldset-form p {
 }
 
 .indice-lista dt {
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -224,7 +224,7 @@ section.fieldset-form p {
 }
 
 .indice-lista dt::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -254,19 +254,18 @@ section.fieldset-form p {
   align-items: center;
 }
 
-.input-control input[type="text"],
-.input-control input[type="email"],
-.input-control input[type="tel"],
+.input-control input[type='text'],
+.input-control input[type='email'],
+.input-control input[type='tel'],
 .input-control textarea {
-  width: 300px;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
-/* carousel de cursos */
+/* lista de cursos */
 
 .carousel {
   display: flex;
@@ -295,11 +294,14 @@ section.fieldset-form p {
 .course h3 {
   margin-top: 10px;
   font-size: 18px;
+  padding: 1px 9px;
 }
 
 .course p {
   font-size: 14px;
-  color: #555;
+  color: #55aaa5;
+  padding: 1px 9px;
+  max-width: 50ch;
 }
 
 .course button {
@@ -339,7 +341,7 @@ section.fieldset-form p {
 }
 
 .dados li::before {
-  content: "";
+  content: '';
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -386,25 +388,24 @@ section.fieldset-form p {
 .copy p {
   text-align: center;
   padding: 15px;
-  font-family: "IBM Plex Mono", monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   color: white;
 }
 
 .campo1 {
+  display: grid;
   padding: 1rem;
   margin: 108px;
-  align-items: center;
-  text-align: center;
+  justify-content: center;
   box-shadow: 1px 1px 15px 0px #000000;
   border-radius: 10px;
 }
 
 .campo {
+  align-items: center;
   padding: 1rem;
   margin: 108px;
-  align-items: center;
-  text-align: center;
   box-shadow: 1px 1px 15px 0px #000000;
   width: 100%;
   border-radius: 10px;
@@ -442,7 +443,16 @@ input {
   font-size: 1rem;
   font-weight: 400;
   text-align: center;
-  align-items: center;
+}
+
+.campo-bloco1,
+.campo-bloco2 {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+  gap: 2rem;
+  justify-content: center;
 }
 
 .input-control textarea {
@@ -603,7 +613,7 @@ h5 {
 }
 
 .search-box-icone {
-  background-image: url("../img/loupe-blue.svg");
+  background-image: url('../img/loupe-blue.svg');
   background-size: cover;
   /* position: absolute; */
   background-repeat: no-repeat;

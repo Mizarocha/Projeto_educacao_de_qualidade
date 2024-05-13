@@ -144,3 +144,18 @@ new Chart(dados, {
     },
   },
 });
+
+document.getElementById("botaoHappyCode").onclick = function () {
+  window.open("https://happy.com.br/", "_blank");
+};
+
+document.getElementById("botaoProgramaKids").onclick = function () {
+  window.open(
+    "https://mooc.cefor.ifes.edu.br/moodle/enrol/index.php?id=135",
+    "_blank"
+  );
+};
+
+document.getElementById("botaoDio").onclick = function () {
+  window.open("https://dio.me/", "_blank");
+};

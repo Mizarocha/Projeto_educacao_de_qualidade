@@ -79,22 +79,22 @@
       <div class='container-login'>
         <div class='card'>
           <h1> Login</h1>
-
+        <form>
           <div class="label-float">
-            <input type="text" id="nome" placeholder=" " required>
-            <label id="labelNome" for="nome">Nome</label>
+            <input type="text" id="nomeLogin" placeholder=" " required>
+            <label id="labelNome" for="nome">Email</label>
           </div>
 
           <div class="label-float">
-            <input type="password" id="senha" placeholder=" " required>
+            <input type="password" id="senhaLogin" placeholder=" " required>
             <label id="labelSenha" for="senha">Senha</label>
             <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
           </div>
 
           <div class='justify-center'>
-            <button onclick="mostrarAba('iniciativa')" type="button" class="btn btn-outline-danger">Entrar</button>
+            <button id="enviarLogin" type="button" class="btn btn-outline-danger">Entrar</button>
           </div>
-
+        </form>
           <div class="texto-cadastro">
             <h5>Ainda não tem conta? Cadastre-se</h5>
           </div>
@@ -342,34 +342,36 @@
       <div>
         <h1 class="titulo">Sugestões</h1>
       </div>
-      <fieldset class="fieldset-form">
+      <fieldset class="fieldset-form" id="fieldset">
+        <form id="formLogin">
         <div class="campo1">
           <div class="campo-sugestao">
             <div class="campo-bloco1">
               <div class="input-control">
                 <label for="nome" class="form-label">Nome:</label>
-                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" />
+                <input type="nome" class="form-control" id="nomeSugestao" placeholder="Digite seu nome" />
               </div>
               <div class="input-control">
                 <label for="email" class="form-label">E-mail:</label>
-                <input type="email" class="form-control" id="email" placeholder="Digite seu email" />
+                <input type="email" class="form-control" id="emailSugestao" placeholder="Digite seu email" />
               </div>
               <div class="input-control">
                 <label for="telefone" class="form-label">Telefone:</label>
-                <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" />
+                <input type="tel" class="form-control" id="telefoneSugestao" placeholder="Digite seu telefone" />
               </div>
             </div>
             <div class="campo-bloco2">
               <div class="input-control01">
                 <label for="sugestao" class="form-label">Sugestão</label>
-                <textarea class="form-control" id="sugestao" placeholder="Digite sua sugestão"></textarea>
+                <textarea class="form-control" id="sugestaoSugestao" placeholder="Digite sua sugestão"></textarea>
               </div>
             </div>
             <div class="campo-botao">
-              <button onclick="mostrarAba('home')" type="button" class="btn btn-outline-warning">Enviar</button>
+              <button id="enviarSugestao" type="button" class="btn btn-outline-warning">Enviar</button>
             </div>
           </div>
         </div>
+      </form>
       </fieldset>
   </div>
   <div class="grid-section cadastro" id="cadastro" style="display: none">

@@ -159,3 +159,35 @@ document.getElementById("botaoProgramaKids").onclick = function () {
 document.getElementById("botaoDio").onclick = function () {
   window.open("https://dio.me/", "_blank");
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("enviarSugestao")
+    .addEventListener("click", function (event) {
+      var nome = document.getElementById("nomeSugestao").value;
+      var email = document.getElementById("emailSugestao").value;
+      var telefone = document.getElementById("telefoneSugestao").value;
+      var sugestao = document.getElementById("sugestaoSugestao").value;
+
+      if (nome === "" || email === "" || telefone === "" || sugestao === "") {
+        event.preventDefault();
+        alert("Preencha todos os campos.");
+        return false;
+      }
+    });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("enviarLogin")
+    .addEventListener("click", function (event) {
+      var email = document.getElementById("nomeLogin").value;
+      var senha = document.getElementById("senhaLogin").value;
+
+      if (email === "" || senha === "") {
+        event.preventDefault();
+        alert("Preencha todos os campos.");
+        return false;
+      }
+    });
+});

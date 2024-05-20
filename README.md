@@ -52,6 +52,7 @@ do grupo com as referências do layout.
  - [ ] Renderização dinâmica de elementos em pelo menos uma página.
 
  <img  width="500"  height="220" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/16efdc0a-bb6d-4bfd-9269-4b9f3e1f58a1"/>
+  <img  width="500" height="220" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/82ba4e03-c8e3-453c-a759-0675a1387e0c"/>
 
 
 

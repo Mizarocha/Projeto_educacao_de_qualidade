@@ -34,7 +34,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 10px;
+  padding: 10px;
   background: #000033;
 }
 
@@ -43,12 +43,12 @@ body {
 }
 
 .cabecalho li a {
-  /* display: block; */
+  display: block;
   padding: 10px;
   margin-right: 10px;
   color: #6841ea;
   text-decoration: none;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 1rem;
@@ -60,7 +60,7 @@ body {
 }
 
 .botoes-acesso button {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 16px;
   font-weight: 500;
   color: #230a74;
@@ -89,7 +89,7 @@ body {
 }
 
 div#div-formulario {
-  background-image: url('../img/linguagem-de-programacao.jpg');
+  background-image: url("../img/linguagem-de-programacao.jpg");
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
   animation: colors 15s ease infinite;
@@ -143,7 +143,7 @@ button.teste {
   font-weight: 600;
   border-radius: 5px;
   border: none;
-  padding: 10px;
+  padding: 0.8%;
   cursor: pointer;
 }
 
@@ -155,9 +155,11 @@ button.teste:hover {
 .conteudo {
   padding: 1rem;
   max-width: 64vh;
-  background: rgb(176 176 176 / 54%);
+  background: rgba(111, 111, 111, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.9px);
+  -webkit-backdrop-filter: blur(9.9px);
   border: 1px solid rgba(111, 111, 111, 0.49);
 }
 
@@ -172,7 +174,7 @@ button.teste:hover {
 }
 
 .titulo {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -190,9 +192,11 @@ button.teste:hover {
   margin-left: 2rem;
   padding-left: 5%;
   padding-right: 5%;
-  background: rgb(176 176 176 / 54%);
+  background: rgba(111, 111, 111, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.9px);
+  -webkit-backdrop-filter: blur(9.9px);
   border: 1px solid rgba(111, 111, 111, 0.49);
 }
 
@@ -212,7 +216,7 @@ section.fieldset-form p {
   gap: 1px;
 }
 
-.radio-group input[type='radio'] {
+.radio-group input[type="radio"] {
   margin-right: 5px;
 }
 
@@ -261,7 +265,7 @@ section.fieldset-form p {
 }
 
 .indice-lista dt {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -274,7 +278,7 @@ section.fieldset-form p {
 }
 
 .indice-lista dt::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -304,9 +308,9 @@ section.fieldset-form p {
   align-items: center;
 }
 
-.input-control input[type='text'],
-.input-control input[type='email'],
-.input-control input[type='tel'],
+.input-control input[type="text"],
+.input-control input[type="email"],
+.input-control input[type="tel"],
 .input-control textarea {
   padding: 5px;
   border: 1px solid #ccc;
@@ -323,9 +327,11 @@ section.fieldset-form p {
   overflow-x: auto;
   overflow-x: auto;
   justify-content: center;
-  background: rgb(176 176 176 / 54%);
+  background: rgba(111, 111, 111, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.9px);
+  -webkit-backdrop-filter: blur(9.9px);
   border: 1px solid rgba(111, 111, 111, 0.49);
 }
 
@@ -384,11 +390,13 @@ section.fieldset-form p {
   align-items: center;
   border-radius: 8px;
   padding: 10px;
-  max-width: 300px;
+  width: 30%;
   margin: 1rem;
-  background: rgb(176 176 176 / 54%);
+  background: rgba(111, 111, 111, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.9px);
+  -webkit-backdrop-filter: blur(9.9px);
   border: 1px solid rgba(111, 111, 111, 0.49);
 }
 
@@ -398,7 +406,7 @@ section.fieldset-form p {
 }
 
 .dados li::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -445,7 +453,7 @@ section.fieldset-form p {
 .copy p {
   text-align: center;
   padding: 15px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
   font-weight: bold;
   color: white;
 }
@@ -455,14 +463,15 @@ section.fieldset-form p {
   padding: 1rem;
   margin: 108px;
   justify-content: center;
-  background: rgb(176 176 176 / 54%);
+  background: rgba(111, 111, 111, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.9px);
+  -webkit-backdrop-filter: blur(9.9px);
   border: 1px solid rgba(111, 111, 111, 0.49);
 }
 
 .campo {
-  background: rgb(176 176 176 / 54%);
   align-items: center;
   padding: 1rem;
   margin: 108px;
@@ -625,15 +634,17 @@ h5 {
   margin-left: 2rem;
   padding-right: 5%;
   padding-left: 5%;
-  background: rgb(176 176 176 / 54%);
+  background: rgba(111, 111, 111, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.9px);
+  -webkit-backdrop-filter: blur(9.9px);
   border: 1px solid rgba(111, 111, 111, 0.49);
 }
 
 .row {
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: 3;
 }
 
 .grafico {
@@ -695,7 +706,6 @@ h5 {
   display: flex;
   border-radius: 100%;
   width: 60px;
-  height: 60px;
   border: none;
   cursor: pointer;
   transition: 0.3s;
@@ -709,7 +719,7 @@ h5 {
 }
 
 .search-box-icone {
-  background-image: url('../img/loupe-blue.svg');
+  background-image: url("../img/loupe-blue.svg");
   background-size: cover;
   /* position: absolute; */
   background-repeat: no-repeat;
@@ -728,9 +738,7 @@ h5 {
   .cabecalho {
     justify-content: start;
     flex-direction: column;
-  }
-  .box-busca {
-    padding-top: 5px;
+    flex-wrap: calc(50%);
   }
 }
 
@@ -750,7 +758,7 @@ h5 {
 
 .card {
   background-color: #ffffff80;
-  padding: 30px;
+  padding: 27px;
   border-radius: 4%;
   box-shadow: 1px 1px 15px 0px #000000;
   width: 400px;
@@ -820,6 +828,31 @@ h5 {
   color: #fff;
 }
 
+button {
+  background-color: #2f0e45;
+  border: none;
+  color: white;
+  padding: 9px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #e61a97;
+  color: #fff;
+}
+
+.card h1 {
+  font-size: 5rem;
+  color: #2f0e45;
+}
+
 div#divLogin {
   padding: 4rem;
 }
@@ -836,6 +869,25 @@ div#divLogin {
   border-radius: 50%;
 }
 
+button#enviarLogin {
+  margin-top: 2rem;
+  background-color: #e61a97;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+  cursor: pointer;
+}
+
+button#enviarLogin:hover {
+  background-color: #2f0e45;
+  color: #fff;
+}
+
 section .row ul {
   max-width: 426px;
 }
@@ -848,10 +900,4 @@ section .row ul {
 
 textarea {
   resize: none;
-}
-
-@media (max-width: 700px) {
-  .dados {
-    max-width: 250px;
-  }
 }

@@ -35,8 +35,22 @@ new Chart(ctx, {
   },
   options: {
     scales: {
+      x: {
+        ticks: {
+          color: "#fff",
+          font: {
+            size: 18,
+          },
+        },
+      },
       y: {
         beginAtZero: true,
+        ticks: {
+          color: "#fff",
+          font: {
+            size: 18,
+          },
+        },
       },
     },
     plugins: {
@@ -89,8 +103,22 @@ const chart = new Chart(novo, {
   ],
   options: {
     scales: {
+      x: {
+        ticks: {
+          color: "#fff",
+          font: {
+            size: 18,
+          },
+        },
+      },
       y: {
         beginAtZero: true,
+        ticks: {
+          color: "#fff",
+          font: {
+            size: 18,
+          },
+        },
       },
     },
     plugins: {
@@ -128,8 +156,22 @@ new Chart(dados, {
   },
   options: {
     scales: {
+      x: {
+        ticks: {
+          color: "#fff",
+          font: {
+            size: 18,
+          },
+        },
+      },
       y: {
         beginAtZero: true,
+        ticks: {
+          color: "#fff",
+          font: {
+            size: 18,
+          },
+        },
       },
     },
     plugins: {

@@ -51,7 +51,7 @@ do grupo com as referências do layout.
  - [ ] Validação do formulário, o site deve ter pelo menos dois formulários com validação.
  - [ ] Renderização dinâmica de elementos em pelo menos uma página.
 
-
+ <img  width="500"  height="220" src="https://github.com/geovannemoreira/Projeto_educacao_de_qualidade/assets/88461178/16efdc0a-bb6d-4bfd-9269-4b9f3e1f58a1"/>
 
 
 

@@ -202,6 +202,26 @@ document.getElementById("botaoDio").onclick = function () {
   window.open("https://dio.me/", "_blank");
 };
 
+document.getElementById("botaoAlura").onclick = function () {
+  window.open("https://www.alura.com.br/", "_blank");
+};
+
+document.getElementById("botaoRochetseat").onclick = function () {
+  window.open("https://www.rocketseat.com.br/", "_blank");
+};
+
+document.getElementById("botaoCodigoKid").onclick = function () {
+  window.open("https://www.codigokid.com.br/", "_blank");
+};
+
+document.getElementById("botaoCodigoKid").onclick = function () {
+  window.open("https://www.codigokid.com.br/", "_blank");
+};
+
+document.getElementById("botaoCodigoKid").onclick = function () {
+  window.open("https://www.codigokid.com.br/", "_blank");
+};
+
 document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("enviarSugestao")
